@@ -1,0 +1,210 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #252115; /* Cor de fundo bege */
+    color: #b9b9b9;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f4e1b2; /* Bege claro */
+    color: #333;
+    padding: 0px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-container .logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #5a3d36; /* Tom de marrom */
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #5a3d36; /* Tom de marrom */
+    text-decoration: none;
+    font-size: 1rem;
+}
+/* Reset */
+
+
+/* Seção Página Inicial */
+#inicio {
+    background-color: #907a55;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio-content {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.inicio-imagem {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.inicio-texto {
+    width: 60%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #5a3d36; /* Tom de marrom */
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+blockquote {
+    font-style: italic;
+    color: #f4e1b2;
+}
+
+/* Botão */
+.btn {
+    background-color: #d8c49b; /* Bege médio */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #5a3d36; /* Tom de marrom */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Seções */
+.secao{
+    background-color: #907a55;
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    padding: 60px 20px;
+    background-color:   #907a55;
+    justify-content: center;
+    
+}
+.section .valeria{
+    width: 60em;
+    height: auto;
+   border-radius: 1%;
+}
+.agendamento-form{
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container .logovaleria{
+    width: 100%;
+    height: auto;
+}
+h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #5a3d36; /* Tom de marrom */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #d8c49b; /* Bege médio */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #d8c49b; /* Bege médio */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #bfa88d;
+}
+
+footer {
+    background-color: #5a3d36; /* Tom de marrom */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+img{
+    width: 200px;
+    height: auto;
+}
